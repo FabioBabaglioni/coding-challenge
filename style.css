@@ -1,0 +1,77 @@
+*{
+  margin:0px;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.riquadro{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 2%;
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.contenitore{
+  width: 800px;
+  margin:auto;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 250px;
+}
+
+#titolo{
+  font-size: 25px;
+  color: rgb(57, 255, 20)
+  
+}
+
+.pulsanti{
+  background-color: rgb(57, 255, 20);
+  padding: 10px;
+  text-align: center;
+}
+
+.monopattino{
+  display: inline-block;
+}
+
+.sezione{
+  color: white;
+}
+
+.caricagiallo{
+  background-color: yellow;
+  width: 250px;
+  height: 25px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.caricaverde{
+  background-color: green;
+  width: 500px;
+  height: 25px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.caricarosso{
+  background-color: red;
+  width: 100px;
+  height: 25px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
